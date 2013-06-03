@@ -25,10 +25,10 @@ using Vector.Math;
 
 namespace Vector.RayTracing
 {
-    public class Intersection 
+    public interface Object3D
     {
-        public Object3D    thing   { get; set; }
-        public Ray      ray     { get; set; }
-        public float    dist    { get; set; }
+        Surface       surface { get; set; }
+        Intersection  intersect (Ray ray);
+        Vector3       normal    (Vector3 pos);
     }
 }

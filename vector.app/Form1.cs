@@ -19,13 +19,13 @@ namespace Vector.App
 
         private Scene  Scene  { get; set; }
 
-        private RayTracer raytracer { get; set; }
+        private Renderer raytracer { get; set; }
 
         public void SetupControl()
         {
             this.Device = new Device(this);
 
-            this.raytracer   = new RayTracer();
+            this.raytracer   = new Renderer();
             
             this.Scene = new Scene();
 
