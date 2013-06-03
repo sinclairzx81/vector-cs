@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vector.win32", "vector.win3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vector.app", "vector.app\vector.app.csproj", "{0556D47A-33DC-455B-B4B8-99D5AEF8D3D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vector.gpu.app", "vector.gpu.app\vector.gpu.app.csproj", "{30E36D8E-2EAF-48F7-B67B-42F6CE9AD7AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{0556D47A-33DC-455B-B4B8-99D5AEF8D3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0556D47A-33DC-455B-B4B8-99D5AEF8D3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0556D47A-33DC-455B-B4B8-99D5AEF8D3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E36D8E-2EAF-48F7-B67B-42F6CE9AD7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E36D8E-2EAF-48F7-B67B-42F6CE9AD7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E36D8E-2EAF-48F7-B67B-42F6CE9AD7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E36D8E-2EAF-48F7-B67B-42F6CE9AD7AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

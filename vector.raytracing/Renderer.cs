@@ -36,9 +36,7 @@ namespace Vector.RayTracing
         private Intersection intersections(Ray ray, Scene scene)
         {
             float closest = float.MaxValue;
-
-
-
+            
             Intersection closestInter = null;
 
             foreach (var thing in scene.things)

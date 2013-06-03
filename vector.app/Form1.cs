@@ -75,7 +75,7 @@ namespace Vector.App
 
             this.Device.Present();
 
-              this.timer.Stop();
+              //this.timer.Stop();
         }
 
 

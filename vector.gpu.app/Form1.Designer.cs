@@ -1,4 +1,4 @@
-﻿namespace Vector.App
+﻿namespace vector.gpu.app
 {
     partial class Form1
     {
@@ -41,7 +41,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(937, 782);
+            this.ClientSize = new System.Drawing.Size(282, 255);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

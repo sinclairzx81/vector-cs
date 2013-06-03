@@ -186,6 +186,7 @@ namespace Vector.Gpu
         public string   VertexSource
         {
             get { return this.vertexSource; }
+            set { this.vertexSource = value; }
         }
         /// <summary>
         /// The Fragment Shader source code.
@@ -193,6 +194,7 @@ namespace Vector.Gpu
         public string   FragmentSource
         {
             get { return this.fragmentSource; }
+            set { this.fragmentSource = value; }
         }
         /// <summary>
         /// The Geometry Shader source code.
@@ -200,6 +202,7 @@ namespace Vector.Gpu
         public string   GeometrySource
         {
             get { return this.geometrySource; }
+            set { this.geometrySource = value; }
         }
         /// <summary>
         /// The input topology of a user defined GeometryShader. 
